@@ -1,0 +1,1 @@
+$$(".taxonomy-header__link").forEach(link => console.log(/(.+\.com)(.+)/.exec(link.href)[2]))
